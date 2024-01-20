@@ -95,7 +95,7 @@ int main(int argc, const char** argv)
             else if(cmd.compare("exit"))
                 return 0;
             else
-                std::cout << "Unknown command: " << cmd.lastArg() << std::endl;
+                std::cout << "Unknown command: " << cmd.lastCommand() << std::endl;
         }
     }
 
