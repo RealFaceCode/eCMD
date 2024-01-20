@@ -13,6 +13,7 @@ A lightweight and simple C++ command interpreter. 🚀
     - [Build - Linux](#build---linux)
     - [Build - Windows](#build---windows)
   - [Example](#example)
+  - [Contact](#contact)
   - [License](#license)
 
 ## Download and build
@@ -102,6 +103,12 @@ int main(int argc, const char** argv)
     return 0;
 }
 ```
+
+## Contact
+
+Feel free to reach out to us!
+
+📣 **Discord**: [Join our Discord server](https://discord.gg/s4FdxVbvDd)
 
 ## License
 
