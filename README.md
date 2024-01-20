@@ -106,10 +106,6 @@ int main(int argc, const char** argv)
 
 ## Contact
 
-Feel free to reach out to us!
-
-📣 **Discord**: [Join our Discord server](https://discord.gg/s4FdxVbvDd)
-
 ## License
 
 Ecmd is open source and licensed under the [MIT License](LICENSE).
