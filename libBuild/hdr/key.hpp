@@ -62,6 +62,9 @@ namespace ecmd
     #endif
     };
 
+    /**
+     * @brief Represents a key-value pair.
+    */
     struct KeyValue
     {
         std::optional<Keys> key;

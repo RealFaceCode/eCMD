@@ -89,7 +89,7 @@ namespace ecmd
         captureInput();
 
         if(!captureMode)
-            return false;
+            return true;
 
         if(!capture.hasInput())
             return false;
@@ -152,7 +152,7 @@ namespace ecmd
         return compare(str, 0, true);
     }
 
-    std::string_view CommandPromt::lastArg() const
+    std::string_view CommandPromt::lastCommand() const
     {
         return last;
     }
