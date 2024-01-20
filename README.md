@@ -7,10 +7,17 @@ A lightweight and simple C++ command interpreter. 🚀
 - [Ecmd](#ecmd)
   - [Table of Contents](#table-of-contents)
   - [Download and build](#download-and-build)
+    - [Download](#download)
+    - [Build CMake](#build-cmake)
+    - [Including in CMake project](#including-in-cmake-project)
+    - [Build - Linux](#build---linux)
+    - [Build - Windows](#build---windows)
   - [Example](#example)
   - [License](#license)
 
 ## Download and build
+
+### Download
 
 To get eCMD as a thirdparty dependencie use the folowing command:
 
@@ -18,11 +25,15 @@ To get eCMD as a thirdparty dependencie use the folowing command:
 git clone https://github.com/RealFaceCode/eCMD.git
 ```
 
+### Build CMake
+
 Building with cmake
 
 ```bash
 mkdir build && cd build && cmake ..
 ```
+
+### Including in CMake project
 
 Including to your cmake projekt
 
@@ -40,11 +51,15 @@ target_include_directories(your_app PUBLIC thirdparty/eCMD/libBuild/hdr)
 target_link_libraries(your_app PRIVATE eCMD)
 ```
 
+### Build - Linux
+
 Build with g++/gcc - unix
 
 ```bash
 g++ -I./libBuild/hdr -shared -std=c++20 libBuild/src/*.cpp -o eCMD.so
 ```
+
+### Build - Windows
 
 Build with g++/gcc - windows
 
